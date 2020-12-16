@@ -7,10 +7,10 @@ import javafx.scene.image.Image;
  * {@link WetTurtle} <b>and initial </b><code>Turtle</code><b> class which is
  * currently renamed as</b> {@link AboveWaterTurtle}. <br>
  * <br>
- * This class represents the {@link Turtle} Character in the gameplay.The Turtle
- * Character can be found at the river area. Player's Frogger character will
- * interact with {@link Turtle} by hopping on its back to get across the River
- * area. <br>
+ * This class represents the {@link Turtle} characters in the gameplay.The
+ * Turtle Character can be found at the river area. Player's Frogger character
+ * will interact with {@link Turtle} by hopping on its back to get across the
+ * River area. <br>
  * <br>
  * The Turtle has 2 status - <i>sunken</i> and <i>above water</i>. When it is
  * above water, main character Frogger can stay on top of it safely; when the

@@ -20,8 +20,8 @@ import javafx.scene.input.KeyEvent;
  * <br>
  * Frogger character dies when it is knocked by Car/Truck character in the Road
  * Area or when it falls into the River area. Players gain 10 points each time
- * they make it pass a row of Car/Truck/Log/Turtle and loses 50 points whenever
- * it dies. After player character dies, character will be returned to beginning
+ * they make pass a row of Car/Truck/Log/Turtle and loses 50 points whenever it
+ * dies. After player character dies, character will be returned to beginning
  * point; no marks will be deducted or allocated until player gets to the
  * previous row where it died.
  * 

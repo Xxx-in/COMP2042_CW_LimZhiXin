@@ -12,7 +12,7 @@ import javafx.scene.image.ImageView;
  * are 2 types of actors in this game: Actor Characters and Actor
  * Non-Characters. <br>
  * <br>
- * Characters are responsive elements that is actively moving in the gameplay
+ * Characters are responsive elements that are actively moving in the gameplay
  * <i> (etc. Truck and Car objects of {@link Obstacle} class)</i>; whereas
  * Non-characters are responsive elements that is stationary and stays in a
  * fixed spot <i> (etc. Score display, {@link BackgroundImage}).</i><br>

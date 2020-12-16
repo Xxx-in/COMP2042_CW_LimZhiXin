@@ -53,7 +53,7 @@ public abstract class World_Controller extends Pane {
 
 			@Override
 			public void changed(ObservableValue<? extends Scene> observable, Scene oldValue, Scene newValue) {
-				// if there is new changes
+				// if there is any new changes
 				if (newValue != null) {
 					newValue.setOnKeyReleased(new EventHandler<KeyEvent>() {
 

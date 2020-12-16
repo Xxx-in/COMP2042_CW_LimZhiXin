@@ -3,7 +3,7 @@ package model;
 import javafx.scene.image.Image;
 
 /**
- * This class represents any background image in gameplay<br>
+ * This class represents any background image in game scene<br>
  * <br>
  * 
  * <b>No modification made </b>

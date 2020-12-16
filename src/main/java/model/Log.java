@@ -3,9 +3,9 @@ package model;
 import javafx.scene.image.Image;
 
 /**
- * This class represents the {@link Log} characters in the gameplay which is
- * found at the River area. Player's Frogger character will interact with
- * {@link Log} by hopping onto it to get across the River area. <br>
+ * This class represents {@link Log} characters in the gameplay which is found
+ * at the River area. Player's Frogger character will interact with {@link Log}
+ * characters by hopping onto it to get across the River area. <br>
  * <br>
  * <b> Modification made : <br>
  * </b> 1 - Add getter/setter method for <code>private</code> <b>attribute to

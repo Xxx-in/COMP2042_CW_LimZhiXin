@@ -4,7 +4,7 @@ import javafx.scene.image.Image;
 
 /**
  * This class represents the obstacles in gameplay which includes <i>Truck</i>
- * and <i>Car</i> characters which is found at the Road area. Player's Frogger
+ * and <i>Car</i> characters which are found at the Road area. Player's Frogger
  * character have to avoid {@link Obstacle} characters when crossing the road;
  * "touching" any {@link Obstacle} characters will cause "death" of Frogger
  * character.<br>

@@ -3,8 +3,8 @@ package model;
 import javafx.scene.image.Image;
 
 /**
- * This class represents Turtle character in above water state.<i>(see
- * {@link Turtle} for more info)</i> <br>
+ * This class represents Turtle character when it is in above water
+ * state.<i>(see {@link Turtle} for more info)</i> <br>
  * <br>
  * <b>Modification made : <br>
  * 1 - Change direct superclass from </b><code>Actor_Characters</code><b> to

@@ -4,7 +4,7 @@ package model;
  * <b>Modified from {@link Actor} Class </b> <br>
  * 
  * Actor Characters are a specialized type of Actors in the gameplay, they are
- * responsive elements that is constantly moving throughout the gameplay.
+ * responsive elements that are constantly moving throughout the gameplay.
  * 
  * @see Actor
  **/

@@ -16,7 +16,7 @@ import model.WetTurtle;
 
 /**
  * Renderer class for gameplay scene; <br>
- * Set up layout when the game starts which includes setting background image,
+ * Set up layout when game starts which includes setting background image,
  * setting background music and creating characters in game
  * <p>
  * <b> See below for modification done : <br>

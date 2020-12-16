@@ -6,7 +6,7 @@ import org.hamcrest.core.Is;
 import javafx.scene.image.Image;
 
 /**
- * This {@link Class} represents the EndBoxes(also known as <i>End</i>) in the
+ * This {@link Class} represents the EndBoxes (also known as <i>End</i>) in the
  * game, which is the final goal where Frogger jumps into. <br>
  * <br>
  * <b>Modification made : <br>

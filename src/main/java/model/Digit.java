@@ -3,7 +3,7 @@ package model;
 import javafx.scene.image.Image;
 
 /**
- * This class represents the numerical values displayed on the main game screen.
+ * This class represents any numerical values displayed on the main game screen.
  * It contains methods to handle displaying of numerical elements such as
  * displaying player's score. <br>
  * <br>

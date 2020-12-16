@@ -16,7 +16,7 @@ import view.MyStage_ViewRenderer;
  * <br>
  * <b>Modification made : <br>
  * 1 - Use newly added </b> setStage() <b>method in {@link MyStage_ViewRenderer}
- * class at </b>start()<b> method to draw out scene </b>
+ * class at </b>start()<b> method to draw out game scene </b>
  * 
  * @see javafx.application.Application
  * @see MyStage_ViewRenderer

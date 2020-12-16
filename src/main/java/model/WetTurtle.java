@@ -10,7 +10,7 @@ import javafx.scene.image.Image;
  * 1 - Change direct superclass from </b><code>Actor_Characters</code><b> to
  * </b><code>Turtle</code>; <br>
  * common field between this class and {@link AboveWaterTurtle} class is
- * extracted to form{@link Turtle} abstract class <br>
+ * extracted to form{@link Turtle} abstract class. <br>
  * <b>2 - Set access modifier of all fields to </b> <code>private</code> <b>and
  * Add getter/setter method for </b> <code>private</code> <b>fields to support
  * data encapsulation <br>
