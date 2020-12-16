@@ -3,6 +3,9 @@
   <groupId>com.frogger_cw</groupId>
   <artifactId>Frogger_Maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <build>
   <plugins>
   	   <!--scenebuilder-->
@@ -14,6 +17,7 @@
                 <release>12</release>
             </configuration>
         </plugin>
+        
         <plugin>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-maven-plugin</artifactId>
@@ -22,6 +26,7 @@
                 <mainClass>p4_group_8_repo.Main</mainClass>
             </configuration>
         </plugin>
+        
         	<plugin>
 	            <artifactId>maven-resources-plugin</artifactId>
 	            <version>2.7</version>
@@ -52,6 +57,7 @@
 	         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.2.0</version>
             <executions>
                 <execution>
                     <id>attach-javadocs</id>
@@ -60,7 +66,25 @@
                     </goals>
                 </execution>
             </executions>
+             <configuration>
+          <show>private</show>
+          <nohelp>true</nohelp>
+        </configuration>
         </plugin>
+        
+        <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>
+                                src/main/java.p4_group_8_repo.Main
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
 	       
         </plugins>
        </build>
