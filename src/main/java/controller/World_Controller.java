@@ -17,10 +17,8 @@ import model.Actor;
 import model.Actor_Characters;
 import view.MyStage_ViewRenderer;
 
-//World is a type of layout since it extends ImageView
 /**
- * Declares functionality of main gameplay scene (what is detected at gameplay
- * scene) <br>
+ * Detects any changes at gameplay scene <br>
  * <br>
  * <b> Modification done : <br>
  * 1 - Add getter and setter method for<code> private </code>field</b>

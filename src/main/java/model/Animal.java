@@ -139,7 +139,7 @@ public class Animal extends Actor_Characters {
 		setOnKeyPressed(new EventHandler<KeyEvent>() {
 			@Override
 			public void handle(KeyEvent event) {
-				if (noMove) {
+				if (getNoMove()) {
 
 				} else {
 					if (second) {
@@ -184,7 +184,7 @@ public class Animal extends Actor_Characters {
 		setOnKeyReleased(new EventHandler<KeyEvent>() {
 			@Override
 			public void handle(KeyEvent event) {
-				if (noMove) {
+				if (getNoMove()) {
 				} else {
 					if (event.getCode() == KeyCode.W || event.getCode() == KeyCode.UP) {
 						if (getY() < getW()) {
@@ -226,7 +226,7 @@ public class Animal extends Actor_Characters {
 			move(movementY * 2, 0);
 		}
 		if (isCarDeath()) {
-			noMove = true;
+			setNoMove(true);
 			if ((now) % 11 == 0) {
 				setCarD(getCarD() + 1);
 			}
@@ -249,7 +249,7 @@ public class Animal extends Actor_Characters {
 				setCarD(0);
 				setImage(
 						new Image("file:src/main/resources/frog_movement/froggerUp.png", imgSize, imgSize, true, true));
-				noMove = false;
+				setNoMove(false);
 				if (points > 50) {
 					points -= 50;
 					setChangeScore(true);
@@ -258,7 +258,7 @@ public class Animal extends Actor_Characters {
 
 		}
 		if (isWaterDeath()) {
-			noMove = true;
+			setNoMove(true);
 			if ((now) % 11 == 0) {
 				setCarD(getCarD() + 1);
 			}
@@ -285,7 +285,7 @@ public class Animal extends Actor_Characters {
 				setCarD(0);
 				setImage(
 						new Image("file:src/main/resources/frog_movement/froggerUp.png", imgSize, imgSize, true, true));
-				noMove = false;
+				setNoMove(false);
 				if (points > 50) {
 					points -= 50;
 					setChangeScore(true);
@@ -303,13 +303,13 @@ public class Animal extends Actor_Characters {
 		if (getX() == 240 && getY() == 82) {
 			setStop(true);
 		}
-		if (getIntersectingObjects(Log.class).size() >= 1 && !noMove) {
+		if (getIntersectingObjects(Log.class).size() >= 1 && !getNoMove()) {
 			if (getIntersectingObjects(Log.class).get(0).getLeft()) {
 				move(-2, 0);
 			} else {
 				move(.75, 0);
 			}
-		} else if (getIntersectingObjects(AboveWaterTurtle.class).size() >= 1 && !noMove) {
+		} else if (getIntersectingObjects(AboveWaterTurtle.class).size() >= 1 && !getNoMove()) {
 			move(-1, 0);
 		} else if (getIntersectingObjects(WetTurtle.class).size() >= 1) {
 			if (getIntersectingObjects(WetTurtle.class).get(0).isSunk()) {
@@ -450,6 +450,14 @@ public class Animal extends Actor_Characters {
 	 */
 	void setInter(ArrayList<End> inter) {
 		this.inter = inter;
+	}
+
+	private boolean getNoMove() {
+		return noMove;
+	}
+
+	private void setNoMove(boolean noMove) {
+		this.noMove = noMove;
 	}
 
 }

@@ -1,0 +1,60 @@
+#startButton{
+  -fx-padding: 15px 25px;
+  -fx-font-size: 30px;
+  -fx-text-alignment: center;
+  -fx-background-color: #F1401A;
+  -fx-background-radius: 15px;
+  -fx-effect: dropshadow(one-pass-box ,rgba(153, 153, 153, 1), 9,1,0,10 ) ;
+}
+#startButton:hover {
+	-fx-background-color: #D22702;
+}
+
+#startButton:pressed {
+  -fx-background-color: #D22702;
+  -fx-effect: dropshadow(one-pass-box ,rgba(102, 102, 102, 1), 5,1,0,5 ) ;
+  -fx-translate-y:8;
+}
+
+#instructionButton{
+  -fx-padding: 15px 25px;
+  -fx-font-size: 30px;
+  -fx-text-alignment: center;
+  -fx-background-color: #F1401A;
+  -fx-background-radius: 15px;
+  -fx-effect: dropshadow(one-pass-box ,rgba(153, 153, 153, 1), 9,1,0,10 ) ;
+}
+#instructionButton:hover {
+	-fx-background-color: #D22702;
+}
+
+#instructionButton:pressed {
+  -fx-background-color: #D22702;
+  -fx-effect: dropshadow(one-pass-box ,rgba(102, 102, 102, 1), 5,1,0,5 ) ;
+  -fx-translate-y:8;
+}
+
+
+#highScoreButton{
+  -fx-padding: 15px 25px;
+  -fx-font-size: 30px;
+  -fx-text-alignment: center;
+  -fx-background-color: #4CAF50;
+  -fx-background-radius: 15px;
+  -fx-effect: dropshadow(one-pass-box ,rgba(153, 153, 153, 1), 9,1,0,10 ) ;
+}
+#highScoreButton:hover {
+	-fx-background-color: #D22702
+}
+
+#highScoreButton:pressed {
+  -fx-background-color: #D22702;
+  -fx-effect: dropshadow(one-pass-box ,rgba(102, 102, 102, 1), 5,1,0,5 ) ;
+  -fx-translate-y:8;
+  }
+ 
+.bodybg{
+    -fx-background-image: url("/startScene/StartSceneBackground.png"); 
+    -fx-background-size: cover;
+}
+

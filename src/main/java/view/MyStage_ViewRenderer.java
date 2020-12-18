@@ -68,41 +68,18 @@ public class MyStage_ViewRenderer extends World_Controller {
 	 **/
 	public MyStage_ViewRenderer() {
 
-//		mediaPlayer.play();
-//		mediaPlayer.setOnEndOfMedia(new Runnable() {
-//
-//			@Override
-//			public void run() {
-//				mediaPlayer.seek(Duration.ZERO);
-//				
-//			}
-//			
-//		});
-//		mediaPlayer.play();
-
-		// Obstacle obstacle = new Obstacle("file:src/p4_group_8_repo/truck1Right.png",
-		// 25, 25, 3);
-		// Obstacle obstacle1 = new Obstacle("file:src/p4_group_8_repo/truck2Right.png",
-		// 100, 100,2 );
-		// Obstacle obstacle2 = new
-		// Obstacle("file:src/p4_group_8_repo/truck1Right.png",0, 150, 1);
-
 		froggerback = new BackgroundImage("file:src/main/resources/background_image/iKogsKW.png");
 		this.add(froggerback);
 		this.add(new Log("file:src/main/resources/log/log3.png", 150, 0, 166, 0.75));
 		this.add(new Log("file:src/main/resources/log/log3.png", 150, 220, 166, 0.75));
 		this.add(new Log("file:src/main/resources/log/log3.png", 150, 440, 166, 0.75));
-		// this.add(new Log("file:src/p4_group_8_repo/log3.png", 150, 0, 166,
-		// 0.75));
+
 		this.add(new Log("file:src/main/resources/log/logs.png", 300, 0, 276, -2));
 		this.add(new Log("file:src/main/resources/log/logs.png", 300, 400, 276, -2));
-		// this.add(new Log("file:src/p4_group_8_repo/logs.png", 300, 800, 276,
-		// -2));
+
 		this.add(new Log("file:src/main/resources/log/log3.png", 150, 50, 329, 0.75));
 		this.add(new Log("file:src/main/resources/log/log3.png", 150, 270, 329, 0.75));
 		this.add(new Log("file:src/main/resources/log/og3.png", 150, 490, 329, 0.75));
-		// this.add(new Log("file:src/p4_group_8_repo/log3.png", 150, 570, 329,
-		// 0.75));
 
 		this.add(new AboveWaterTurtle(500, 376, -1, 130, 130));
 		this.add(new AboveWaterTurtle(300, 376, -1, 130, 130));
@@ -110,25 +87,6 @@ public class MyStage_ViewRenderer extends World_Controller {
 		this.add(new WetTurtle(600, 217, -1, 130, 130));
 		this.add(new WetTurtle(400, 217, -1, 130, 130));
 		this.add(new WetTurtle(200, 217, -1, 130, 130));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 100, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 0, 100, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 120, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 120, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 140, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 140, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 160, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 300, 160, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 180, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 180, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 200, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 200, -1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 100, 220, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 200, 220, 1));
-		// this.add(new Log("file:src/p4_group_8_repo/log2.png", 400, 220, 1));
-		// End end2 = new End();
-		// End end3 = new End();
-		// End end4 = new End();
-		// End end5 = new End();
 		this.add(new End(13, 96));
 		this.add(new End(141, 96));
 		this.add(new End(141 + 141 - 13, 96));
@@ -139,8 +97,7 @@ public class MyStage_ViewRenderer extends World_Controller {
 		this.add(new Obstacle("file:src/main/resources/truck/truck1" + "Right.png", 0, 649, 1, 120, 120));
 		this.add(new Obstacle("file:src/main/sresources/truck/truck1" + "Right.png", 300, 649, 1, 120, 120));
 		this.add(new Obstacle("file:src/main/resources/truck/truck1" + "Right.png", 600, 649, 1, 120, 120));
-		// this.add(new Obstacle("file:src/p4_group_8_repo/truck1"+"Right.png",
-		// 720, 649, 1, 120, 120));
+
 		this.add(new Obstacle("file:src/main/resources/car/car1Left.png", 100, 597, -1, 50, 50));
 		this.add(new Obstacle("file:src/main/resources/car/car1Left.png", 250, 597, -1, 50, 50));
 		this.add(new Obstacle("file:src/main/resources/car/car1Left.png", 400, 597, -1, 50, 50));

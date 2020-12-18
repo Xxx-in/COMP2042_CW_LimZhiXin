@@ -1,0 +1,13 @@
+#closeInstructionButton{
+
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+#closeInstructionButton:focused {
+    -fx-border-color: transparent;
+}
+#closeInstructionButton:pressed {
+    -fx-background-color: transparent;
+}

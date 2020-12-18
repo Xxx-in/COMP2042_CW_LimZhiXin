@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="565.0" styleClass="bodybg" stylesheets="@../css/StartScene.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartScene_Controller">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" prefHeight="760.0" prefWidth="566.0" spacing="80.0">
+         <children>
+            <Button fx:id="startButton" alignment="CENTER" mnemonicParsing="false" onAction="#changeScenetoGame" prefHeight="66.0" prefWidth="182.0" stylesheets="@../css/StartScene.css" text="Start" textAlignment="CENTER" textFill="#fdebeb">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="instructionButton" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#changeScenetoInstruction" stylesheets="@../css/StartScene.css" text="Instruction" textFill="#fdf3f3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+         <stylesheets>
+            <URL value="@../css/StartScene.css" />
+            <URL value="@../css/StartScene.css" />
+         </stylesheets>
+      </VBox>
+   </children>
+</AnchorPane>
