@@ -4,7 +4,7 @@ UNMC 2020/2021 Spring Semester
 #To run file
 1. Import Frogger_Maven_LimZhiXin20204972.zip
 2. Set up Maven plugin on eclipse
-3. Run > Run Configurations > At Goals column, type "clean javafx:run" (without "") > Run
+3. Run > Run Configurations > At Goals column, type "clean install javafx:run" (without "") > Run
 
 UML Class Diagram is under src/main/resources/UML Class Diagram
 
