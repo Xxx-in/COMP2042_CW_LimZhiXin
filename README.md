@@ -1,6 +1,7 @@
 # COMP2042_CW_LimZhiXin
 UNMC 2020/2021 Spring Semester 
 
+#To run file
 1. Import Frogger_Maven_LimZhiXin20204972.zip
 2. Set up Maven plugin on eclipse
 3. Run > Run Configurations > At Goals column, type "clean javafx:run" (without "") > Run
@@ -8,6 +9,8 @@ UNMC 2020/2021 Spring Semester
 UML Class Diagram is under src/main/resources/UML Class Diagram
 
 Javadocs is under target/apidocs/packageName/className after running step 3
+
+*Note : Bolded text in Javadocs represents modification made 
 
 #Part 1
 1. Use Maven & set up pom.xml file
