@@ -4,7 +4,9 @@ UNMC 2020/2021 Spring Semester
 1. Import JAR
 2. Set up Maven plugin on eclipse
 3. Run > Run Configurations > At Goals column, type "clean javafx:run" (without "") > Run
+
 UML Class Diagram is under src/main/resources/UML Class Diagram
+Javadocs is under target/apidocs/packageName/className after running step 3
 
 Part 1
 #Use Maven & set up pom.xml file
@@ -17,8 +19,6 @@ Part 2
 #Continue detailed housekeeping
 1. Actor.java delete unused manageInput() function at line 38
 2. Actor.java delete repeated function line 42-50
-#Fix error after orgranizing file
-1.file:resources/path --> file:src/main.resources/path
 #Modify code to allow control with arrow key
 #Split ViewRenderer from Main.java
 - Move line 24-98 from Main.java to constructor of MyStage class
