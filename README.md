@@ -6,6 +6,7 @@ UNMC 2020/2021 Spring Semester
 3. Run > Run Configurations > At Goals column, type "clean javafx:run" (without "") > Run
 
 UML Class Diagram is under src/main/resources/UML Class Diagram
+
 Javadocs is under target/apidocs/packageName/className after running step 3
 
 #Part 1
