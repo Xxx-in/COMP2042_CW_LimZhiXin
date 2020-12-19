@@ -79,5 +79,4 @@ public class GameTimer_Controller {
 			shift += 30;
 		}
 	}
-
 }

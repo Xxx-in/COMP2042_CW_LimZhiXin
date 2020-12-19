@@ -8,7 +8,6 @@ import javafx.scene.media.MediaPlayer;
 import model.AboveWaterTurtle;
 import model.Animal;
 import model.BackgroundImage;
-import model.Digit;
 import model.End;
 import model.Log;
 import model.Obstacle;
@@ -87,11 +86,11 @@ public class MyStage_ViewRenderer extends World_Controller {
 		this.add(new WetTurtle(600, 217, -1, 130, 130));
 		this.add(new WetTurtle(400, 217, -1, 130, 130));
 		this.add(new WetTurtle(200, 217, -1, 130, 130));
-		this.add(new End(13, 96));
-		this.add(new End(141, 96));
-		this.add(new End(141 + 141 - 13, 96));
-		this.add(new End(141 + 141 - 13 + 141 - 13 + 1, 96));
-		this.add(new End(141 + 141 - 13 + 141 - 13 + 141 - 13 + 3, 96));
+		this.add(new End(13 - 3, 96));
+		this.add(new End(141 - 8, 96));
+		this.add(new End(141 + 141 - 30, 96));
+		this.add(new End(141 + 141 + 141 - 53, 96));
+		this.add(new End(141 + 141 + 141 + 141 - 79, 96));
 		animal = new Animal("file:src/main/resources/frog_movement/froggerUp.png");
 		this.add(animal);
 		this.add(new Obstacle("file:src/main/resources/truck/truck1" + "Right.png", 0, 649, 1, 120, 120));
@@ -105,7 +104,6 @@ public class MyStage_ViewRenderer extends World_Controller {
 		this.add(new Obstacle("file:src/main/resources/truck/truck2Right.png", 0, 540, 1, 200, 200));
 		this.add(new Obstacle("file:src/main/resources/truck/truck2Right.png", 500, 540, 1, 200, 200));
 		this.add(new Obstacle("file:src/main/resources/car/car1Left.png", 500, 490, -5, 50, 50));
-		this.add(new Digit(0, 30, 500, 25));
 	}
 
 	/**

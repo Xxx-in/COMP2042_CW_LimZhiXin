@@ -50,6 +50,7 @@ public class Main extends Application {
 		scene.getStylesheets().addAll(this.getClass().getResource("/startScene/css/StartScene.css").toExternalForm());
 		primaryStage.getIcons().add(new Image("file:src/main/resources/icon-frogger-pixel-512x512.png"));
 		primaryStage.setTitle("FroggerCW");
+		primaryStage.setResizable(false);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		// start();
